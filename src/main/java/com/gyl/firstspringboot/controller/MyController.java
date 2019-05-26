@@ -10,7 +10,6 @@ public class MyController {
     public String hello(){
         return "hello springboot!!!";
     }
-
     @RequestMapping("sayhello")
     public String sayhello(){
         return "hello world!!!";
